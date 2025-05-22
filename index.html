@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristian Stavar</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Language Toggle Button -->
+  <button id="languageToggle" aria-label="Toggle language">Español</button>
+
+  <!-- Header -->
+  <header>
+    <h1 id="headEnglish">Cristian Stavar</h1>
+    <h1 id="headSpanish" class="hidden">Cristian Stavar</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav id="navEnglish" aria-label="English Navigation">
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#proj">Personal Projects</a>
+  </nav>
+
+  <nav id="navSpanish" class="hidden" aria-label="Spanish Navigation">
+    <a href="#about">Quién soy</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#experience">Experiencia</a>
+    <a href="#proj">Proyectos personales</a>
+  </nav>
+
+
+
+
+
+  <!-- About Me Section -->
+  <section id="about">
+
+    <div id="aboutEnglish">
+      <h2>About Me</h2>
+      <p>Hello! I'm a passionate developer with a love for creating innovative solutions. I enjoy working on web
+        development, machine learning, and open-source projects.</p>
+    </div>
+    <div id="aboutSpanish" class="hidden">
+      <h2>Sobre mi</h2>
+      <p>¡Hola! Soy un desarrollador apasionado con un amor por crear soluciones innovadoras. Disfruto trabajando en
+        desarrollo web, aprendizaje automático y proyectos de código abierto.</p>
+    </div>
+  </section>
+
+
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 id="skillsTitleEnglish">Skills</h2>
+    <div id="skillsEnglish">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java</li>
+        <li>Godot, GDScript</li>
+        <li>SQL</li>
+        <li>SOAP, REST </li>
+      </ul>
+    </div>
+
+    <h2 id="skillsTitleSpanish" class="hidden">Habilidades</h2>
+
+    <div id="skillsSpanish" class="hidden">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java</li>
+        <li>Godot, GDScript</li>
+        <li>SQL</li>
+        <li>SOAP, REST </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <!-- Experience Section -->
+  <section id="experience">
+
+    <div id="experienceEnglish">
+      <h2>Experience</h2>
+      <p><strong>Freelance developer:</strong> development and maintenance of <a
+          href="https://anisferdi.com/">anisferdi.com</a>
+      <p><strong>Web development:</strong> development and maintenance of the local board games association web page <a
+          href="https://mineroblanco.es/">mineroblanco.es</a> (2021-2022)</p>
+      </p>
+    </div>
+
+    <div id="experienceSpanish" class="hidden">
+      <h2>Experiencia</h2>
+      <p><strong>Desarrollador Web:</strong> desarrollo y mantenimiento de <a
+          href="https://anisferdi.com/">anisferdi.com</a></p>
+      <p><strong>Desarrollador Web:</strong> desarrollo y mantenimiento de la página de una asociación local de juegos
+        de mesa <a href="https://mineroblanco.es/">mineroblanco.es</a> (2021-2022)</p>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- Personal Projects Section -->
+  <section id="proj" class="hidden2">
+
+    <div id="projectsIntroEnglish">
+      <h2>Personal projects</h2>
+      <p>Here are some of my personal projects that I made for myself or for learning purposes:</p>
+      <h3>Utilities</h3>
+
+      <div><strong>Pdf_Audio: </strong>A python program that takes pdf files or text input and processes it into audio.
+        <a href="https://github.com/CristianStavar/TextToSpeech">Github link</a>
+      </div>
+
+      <h3 class="videogamesTitle">Videogames</h3>
+      <div>Games developed with Godot and GDScript for various game jams.</div>
+      <p>Visit my <a href="https://segra.itch.io/" target="_blank">Itch.io</a> to find more games!</p>
+    </div>
+
+
+    <div id="projectsIntroSpanish" class="hidden">
+      <h2>Proyectos personales</h2>
+      <p>Aquí están algunos de mis proyectos personales, Programas y aplicaciones creadas para uso personal y
+        aprendizaje:</p>
+
+
+      <h3>Programas</h3>
+
+
+      <div><strong>TextToSpeech: </strong>Programa escrito en python para la conversion de texto y archivos pdf a audio.
+        <a href="https://github.com/CristianStavar/TextToSpeech">Github link</a>
+      </div>
+
+      <h3 class="videogamesTitle">Videojuegos</h3>
+      <div>Videojuegos desarrollados en Godot con GDScript tanto para game jams como por apreendizaje personal.</div>
+      <p>¡Visita mi <a href="https://segra.itch.io/" target="_blank">Itch.io</a> para más!</p>
+    </div>
+
+    <div id="gamesDisplay">
+
+
+      <div id="gamesTable">
+
+        <div class="gameButton"><button id="gameButtonSmolSheper" class="flex-fullButton">Smol Sheper</button></div>
+        <div class="gameButton"><button id="gameButtonDanceDanceStudio" class="flex-fullButton">DanceDance
+            Studio</button></div>
+        <div class="gameButton"><button id="gameButtonEmptyMind" class="flex-fullButton">Empty Mind</button></div>
+        <div class="gameButton"><button id="gameButtonSoulForge" class="flex-fullButton">Soul Forge</button></div>
+
+      </div>
+
+
+
+      <!-- 
+      <div id="actualGameSmolSheper" class=" ">
+
+        <div id="smolSheperDescriptionEnglish" class="gameDescription ">
+          <p>Help the chick guide the animals to their homes.</p>
+          <p>Use the mouse to control the chick.</p>
+        </div>
+
+        <div id="smolSheperDescriptionSpanish" class="gameDescription hidden">
+          <p>Ayuda al pollito a llevar a los animales a sus casas dandoles un empujoncito.</p>
+          <p>Controla la dirección del pollito con el ratón.</p>
+        </div>
+
+
+
+        <div class="iframeContainer">
+          <div class="loader">Loading...</div>
+          <iframe class="gameFrame" src="https://itch.io/embed-upload/8405973?color=c7f7bf" allowfullscreen=""
+            width="940" height="570"><a href="https://segra.itch.io/smol-sheper">Play Smol Sheper on
+              itch.io</a></iframe>
+        </div>
+      </div> -->
+
+
+
+      <div id="actualGameDanceDanceStudio" class=" hidden">
+        <div id="danceStudioDescriptionEnglish" class="gameDescription ">
+          <p>Attempt to complete an escape room in this sshort narative game ith puzzleess.</p>
+          <p>Move the character with WASD or the arrows.</p>
+        </div>
+
+        <div id="danceStudioDescriptionSpanish" class="gameDescription hidden">
+          <p>Intenta escapar de un famoso scape room en esta corta experiencia narrativa con puzles.</p>
+          <p>Mueve al personaje con WASD o las flechas.</p>
+        </div>
+
+        <div class="iframeContainer">
+          <div class="loader">Loading...</div>
+          <iframe class="gameFrame" src="https://itch.io/embed-upload/12010966?color=6a3d30" allowfullscreen=""
+            width="1000" height="870"><a href="https://segra.itch.io/dancedancestudio">Play DanceDanceStudio on
+              itch.io</a></iframe>
+          <!-- 1360 740 -->
+        </div>
+      </div>
+
+
+
+      <div id="actualGameEmptyMind" class=" hidden">
+
+        <div id="emptyMindDescriptionEnglish" class="gameDescription ">
+          <p>Short tetris game with a twist!</p>
+        </div>
+
+        <div id="emptyMindDescriptionSpanish" class="gameDescription hidden">
+          <p>Un juego corto de tetris con historia.</p>
+        </div>
+
+        <div class="iframeContainer">
+          <div class="loader">Loading...</div>
+          <iframe class="gameFrame" src="https://itch.io/embed-upload/12831955?color=333333" allowfullscreen=""
+            width="1000" height="870"><a href="https://segra.itch.io/empty-mind">Play Empty Mind on
+              itch.io</a></iframe>
+        </div>
+      </div>
+
+
+
+      <div id="actualGameSoulForge" class=" hidden">
+
+        <div id="soulForgeDescriptionEnglish" class="gameDescription ">
+          <p>Incremental pasive game about a lone entity that forges souls.</p>
+
+        </div>
+
+        <div id="soulForgeDescriptionSpanish" class="gameDescription hidden">
+          <p>Juego pasivo incremental sobre un antiguo ente forjador de almas.</p>
+
+        </div>
+
+        <div class="iframeContainer">
+          <div class="loader">Loading...</div>
+          <iframe class="gameFrame" src="https://itch.io/embed-upload/12811800?color=000000" allowfullscreen=""
+            width="1000" height="670"><a href="https://segra.itch.io/soulforge">Play SoulForge on
+              itch.io</a></iframe>
+        </div>
+      </div>
+
+
+
+
+    </div><!-- GamesDisplay -->
+
+
+
+    </div>
+
+
+  </section>
+
+
+  <script src="scripts.js"></script>
+
+</body>
+
+
+<footer>
+  <p>© 2025 Cristian Stavar. All rights reserved.</p>
+  <a href="https://www.linkedin.com/in/cristian-stavar/" target="_blank">LinkedIn</a>
+</footer>
+
+</html>
