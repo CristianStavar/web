@@ -6,7 +6,7 @@ const spanishSections = document.querySelectorAll('[id$="Spanish"]');
 
 
 // Load saved language preference
-const savedLanguage = localStorage.getItem('language') || 'english';
+const savedLanguage = localStorage.getItem('language') || 'spanish';
 if (savedLanguage === 'spanish') {
   toggleButton.textContent = 'English';
   englishSections.forEach(section => section.classList.add('hidden'));
